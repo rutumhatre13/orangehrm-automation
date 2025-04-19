@@ -1,20 +1,31 @@
-# OrangeHRM Automation Testing
+# Automation Testing For OrangeHRM
 
-## Project Overview
-This is an **automation testing project** for the **OrangeHRM** web application. The tests are developed using **Selenium WebDriver** with **Java**, **Maven**, and **TestNG**. The project includes testing for the **login** functionality, with **logging** functionality integrated using **log4j**.
+## Overview of the Project
+
+Described here is an **OrangeHRM** web application project which is an **automation testing project**. The tests are implemented in **Selenium WebDriver** and programmed in **Java** using **Maven** and **TestNG**. The project has testing for the **login** functionality, with **logging** functionality included using **log4j**.
 
 ---
 
 ## Tech Stack
-- **Java**: The programming language used to write the automation scripts.
-- **Selenium WebDriver**: To interact with the web elements and perform actions.
-- **TestNG**: To manage and run test cases, generate reports, and handle assertions.
-- **Maven**: For project management and dependency handling.
-- **log4j**: For logging automation actions and results.
-  
----
 
+ - **Java**: The software used for developing the automation scripts.
+
+- **Selenium WebDriver**: Interacting with web objects in creating actions.
+
+- **TestNG**: Test case authoring for management, execution, report generation, validation, and assertion.
+
+- **Maven**: Tool for project and dependency management.
+
+- **log4j**: Logging actions and results of execution.
+
+
+
+---
 ## Features Covered
-- **Login Test Case**: Testing the login functionality for valid credentials.
-- **Test Reports**: TestNG generates execution reports (HTML & XML) stored in `test-output` directory.
-- **Logs**: log4j integrated to log execution details.
+
+- **Login Test Case**: Valid credential login feature testing.
+
+- **Test Reports**: Execution reports (HTML & XML) are stored in the `test-output` directory using TestNG.
+
+- **Logs**: Execution information logged using log4j framework.
+
